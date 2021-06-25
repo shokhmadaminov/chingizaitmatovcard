@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    height: 1000px;
+    background-color: blanchedalmond\\;
+    font-family: 'Big Shoulders Text', display;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 350px;
+    width: 700px;
+    padding: 10px 50px;
+    background-color: rgb(83, 23, 196);
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px;
+    position: relative;
+    z-index: 3;
+}
+img{
+    height: 170px;
+    border-radius: 100%;
+    border: solid 2px white;
+    transform: translateY(-100px);
+}
+h2{
+    transform: translateY(-100px);
+}
+h3{
+    color: #8a8a8a;
+    transform: translateY(-110px);
+}
+p{
+    line-height: 1.9;
+    transform: translateY(-80px);
+}
+
+.container2{
+    height: 100px;
+    width: 670px;
+    background-color: rgb(133, 108, 179);
+    border-radius: 7px;
+    position: relative;
+    transform: translateY(-85px);
+    z-index: 2;
+}
+.container3{
+    height: 100px;
+    width: 640px;
+    background-color: rgba(83, 23, 196, 0.2);
+    border-radius: 7px;
+    position: relative;
+    transform: translateY(-170px);
+    z-index: 1;
+}
